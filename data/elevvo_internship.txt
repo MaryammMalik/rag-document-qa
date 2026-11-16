@@ -1,0 +1,25 @@
+The Elevvo Internship Program
+
+Elevvo Pathways runs a fully sponsored internship programme for students
+and early-career developers. Interns choose a track, such as Python
+Programming and AI, Data Analytics, or Web Development, and complete a set
+of practical tasks that mirror real industry projects.
+
+Interns enrolled in the one-month format must complete at least four tasks
+of their choice. Interns in the two-week format must complete at least
+three tasks. The tasks are graded by difficulty, from Level 1 fundamentals
+to Industry Level projects such as building a retrieval-augmented
+generation (RAG) question-answering tool.
+
+The submission deadline for the one-month internship is November 21 at
+11:59 PM Cairo time (GMT+2). The two-week internship deadline is
+November 5 at 11:59 PM Cairo time. Completed work is submitted through an
+official Google Form.
+
+After finishing the required tasks, interns share their work in a public
+LinkedIn or Facebook post that tags the Elevvo page. The post should
+include a link to the GitHub repository containing the code and a brief
+description of the work, or a short screen recording. Certificates are
+issued within one week after the internship deadline, once all
+requirements have been met. Bonus tasks are not mandatory, but they are
+considered during evaluation for badges.

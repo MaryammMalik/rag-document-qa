@@ -1,0 +1,29 @@
+Python Programming Basics
+
+Python is a high-level, interpreted programming language known for its
+readable syntax. A variable in Python is created the moment a value is
+assigned to it, and Python is dynamically typed, which means the type of a
+variable is determined at runtime.
+
+The core data structures in Python are lists, dictionaries, tuples, and
+sets. A list is an ordered, mutable collection written with square
+brackets. A dictionary stores key-value pairs and is written with curly
+braces. A tuple is ordered but immutable, while a set stores unique,
+unordered elements.
+
+Functions are defined with the def keyword. A function can accept
+parameters, return values, and include a docstring that documents what it
+does. Organising code into functions and modules keeps programs readable
+and reusable.
+
+Python follows the PEP 8 style guide. PEP 8 recommends using four spaces
+for indentation, naming variables and functions in snake_case, naming
+classes in PascalCase, and keeping lines reasonably short. Writing code
+that follows PEP 8 makes it easier for other developers to read and
+maintain.
+
+Errors in Python are raised as exceptions. A try block lets you test a
+block of code for errors, an except block handles the error, and a finally
+block runs regardless of the outcome. Programmers can also define their
+own custom exception classes by inheriting from the built-in Exception
+class.

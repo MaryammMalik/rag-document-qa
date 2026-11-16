@@ -1,0 +1,27 @@
+How Retrieval-Augmented Generation Works
+
+Retrieval-Augmented Generation, usually shortened to RAG, is a technique
+that lets a large language model answer questions using a specific set of
+documents instead of relying only on what it learned during training. This
+makes answers more accurate, more current, and grounded in sources the
+user controls.
+
+A RAG pipeline has two phases. In the indexing phase, each document is
+split into smaller pieces called chunks. Fixed-size chunking cuts the text
+into pieces of a set number of characters, often with a small overlap so
+that sentences near a boundary are not lost. Each chunk is then converted
+into a list of numbers called an embedding, which captures the meaning of
+the text. The embeddings are stored in a vector store such as FAISS or
+Chroma.
+
+In the querying phase, the user's question is converted into an embedding
+with the same model. The vector store performs a similarity search, most
+often cosine similarity, to find the chunks whose meaning is closest to
+the question. Those chunks are placed into the prompt as context, and the
+language model generates an answer based on that context.
+
+A well-built RAG tool also knows when to stay silent. If the best matching
+chunk scores below a configurable similarity threshold, the tool should
+answer "I don't know" instead of guessing. This threshold behaviour must
+be enforced in code, not just requested in the prompt, because a language
+model may otherwise invent a plausible-sounding answer.
